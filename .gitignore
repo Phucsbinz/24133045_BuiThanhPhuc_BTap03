@@ -1,0 +1,113 @@
+# ==========================================
+# Maven build output
+# ==========================================
+target/
+**/target/
+*.war
+*.jar
+*.ear
+*.nar
+*.class
+*.rar
+*.zip
+*.tar.gz
+
+# ==========================================
+# Eclipse / STS (Spring Tool Suite)
+# ==========================================
+.settings/
+**/.settings/
+.project
+**/.project
+.classpath
+**/.classpath
+.factorypath
+**/.factorypath
+.metadata/
+**/.metadata/
+*.launch
+**/*.launch
+bin/
+**/bin/
+.apt_generated/
+.apt_generated_tests/
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.iws
+**/*.iws
+*.ipr
+**/*.ipr
+out/
+**/out/
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+**/.vscode/
+
+# ==========================================
+# NetBeans
+# ==========================================
+**/nbproject/private/
+**/build/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/nbactions.xml
+**/nb-configuration.xml
+
+# ==========================================
+# Operating System files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Temporary & Log files
+# ==========================================
+*.log
+**/*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+*.env
+**/.env
+**/.env.*
+**/*.env
+
+# ==========================================
+# Application Uploads & Local Storage
+# ==========================================
+upload/
+**/upload/
+uploads/
+**/uploads/
+

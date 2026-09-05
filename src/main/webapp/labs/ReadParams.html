@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ví dụ đọc tất cả Parameters của Form trong Servlet</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; background: #f1f5f9; display: flex; justify-content: center; }
+        .box { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 420px; }
+        h2 { font-size: 18px; margin-bottom: 20px; color: #1e293b; text-align: center; }
+        .form-group { margin-bottom: 12px; }
+        label { display: block; font-size: 13px; font-weight: bold; margin-bottom: 4px; }
+        input[type="text"] { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+        .check-item { margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+        input[type="submit"] { margin-top: 15px; width: 100%; padding: 10px; background: #059669; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Slide 38: Đọc tất cả Parameters</h2>
+        <form action="../ReadParamsAction" method="POST">
+            <div class="form-group">
+                <label>Họ và tên:</label>
+                <input type="text" name="hoten" value="Nguyễn Hữu Trung" />
+            </div>
+            <div class="form-group">
+                <label>Lớp học:</label>
+                <input type="text" name="lop" value="Lập Trình Web" />
+            </div>
+            <div class="check-item"><input type="checkbox" name="toan" value="on" checked="checked" /> Toán</div>
+            <div class="check-item"><input type="checkbox" name="ly" value="on" /> Vật Lý</div>
+            <div class="check-item"><input type="checkbox" name="hoa" value="on" checked="checked" /> Hóa Học</div>
+            <input type="submit" value="Gửi Dữ Liệu (Submit)" />
+        </form>
+        <p style="margin-top: 15px; text-align: center;"><a href="../">&larr; Quay về Menu Chính</a></p>
+    </div>
+</body>
+</html>
